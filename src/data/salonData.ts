@@ -7,13 +7,19 @@ import {
   Appointment,
 } from '../types/salon.ts';
 
-// Verified image assets served from public directory for DER SALON
+import heroImage from '../assets/images/hero_salon_frankfurt_1790425601819.jpg';
+import haircutImage from '../assets/images/service_precision_haircut_1790425617133.jpg';
+import colourImage from '../assets/images/service_hair_colour_1790425627684.jpg';
+import editorialImage from '../assets/images/editorial_salon_portrait_1790425638351.jpg';
+import washLoungeImage from '../assets/images/salon_interior_wash_1790425651524.jpg';
+
+// Bundled image assets for DER SALON
 export const IMAGES = {
-  hero: '/images/hero_salon_frankfurt_1790425601819.jpg',
-  haircut: '/images/service_precision_haircut_1790425617133.jpg',
-  colour: '/images/service_hair_colour_1790425627684.jpg',
-  editorial: '/images/editorial_salon_portrait_1790425638351.jpg',
-  washLounge: '/images/salon_interior_wash_1790425651524.jpg',
+  hero: heroImage,
+  haircut: haircutImage,
+  colour: colourImage,
+  editorial: editorialImage,
+  washLounge: washLoungeImage,
 };
 
 export const INITIAL_BUSINESS_INFO: BusinessInfo = {
