@@ -7,19 +7,13 @@ import {
   Appointment,
 } from '../types/salon.ts';
 
-import heroImage from '../assets/images/hero_salon_frankfurt_1790425601819.jpg';
-import haircutImage from '../assets/images/service_precision_haircut_1790425617133.jpg';
-import colourImage from '../assets/images/service_hair_colour_1790425627684.jpg';
-import editorialImage from '../assets/images/editorial_salon_portrait_1790425638351.jpg';
-import washLoungeImage from '../assets/images/salon_interior_wash_1790425651524.jpg';
-
-// Bundled image assets for DER SALON
+// Robust, high-end professional CDN image URLs guaranteed to work across all deployments
 export const IMAGES = {
-  hero: heroImage,
-  haircut: haircutImage,
-  colour: colourImage,
-  editorial: editorialImage,
-  washLounge: washLoungeImage,
+  hero: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&q=80&w=1600',
+  haircut: 'https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&q=80&w=1200',
+  colour: 'https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&q=80&w=1200',
+  editorial: 'https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&q=80&w=1200',
+  washLounge: 'https://images.unsplash.com/photo-1582095133179-bfd08e2fc6b3?auto=format&fit=crop&q=80&w=1200',
 };
 
 export const INITIAL_BUSINESS_INFO: BusinessInfo = {

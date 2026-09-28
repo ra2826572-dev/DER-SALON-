@@ -15,9 +15,9 @@ export const FeaturedService: React.FC = () => {
             <div className="relative aspect-[3/4] max-h-[580px] w-full overflow-hidden bg-[#242321]">
               <img
                 src={IMAGES.editorial}
-                alt="Editorial styling portrait at DER SALON"
+                alt="Teen Boy & Men Hairstyles - DER SALON"
                 referrerPolicy="no-referrer"
-                className="w-full h-full object-cover object-center filter grayscale-[15%] hover:grayscale-0 transition-all duration-700"
+                className="w-full h-full object-cover object-center filter grayscale-[10%] hover:grayscale-0 transition-all duration-700"
               />
               {/* Subtle architectural frame */}
               <div className="absolute inset-0 border border-white/10 pointer-events-none" />
@@ -27,18 +27,21 @@ export const FeaturedService: React.FC = () => {
           {/* Editorial Text Side */}
           <div className="lg:col-span-6 flex flex-col justify-center lg:pl-6">
             <span className="text-[11px] uppercase tracking-[0.35em] text-[#C5A880] font-medium mb-4 block">
-              The Experience
+              Modern Cuts & Styling
             </span>
 
-            <h2 className="font-serif text-4xl sm:text-5xl md:text-6xl text-[#FAF7F2] font-normal tracking-tight uppercase leading-[1.1] mb-2">
-              YOUR STYLE.
+            <span className="text-xs uppercase tracking-[0.3em] text-[#C7C2B8] font-light mb-2 block">
+              35+ Teen Boy
+            </span>
+            <h2 className="font-serif text-5xl sm:text-6xl md:text-7xl text-[#FAF7F2] font-normal tracking-tight uppercase leading-[1.05] mb-2">
+              Hairstyles
             </h2>
-            <h2 className="font-serif text-4xl sm:text-5xl md:text-6xl text-[#C5A880] font-normal tracking-tight uppercase leading-[1.1] mb-6">
-              YOUR MOMENT.
+            <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-[#C5A880] font-normal tracking-wide uppercase mb-6">
+              & Modern Fades
             </h2>
 
             <p className="text-base sm:text-lg text-[#C7C2B8] font-light leading-relaxed mb-8 max-w-md">
-              Professional hair care tailored to you.
+              Precision cuts, textured crops, tapers, and modern styling tailored for teens and young adults at DER SALON Frankfurt-Süd.
             </p>
 
             <div>
